@@ -54,7 +54,11 @@
                   <br>
                   <hr>
                   <a href="/" class="btn btn-primary">Torna alla homepage</a>
-                  <a href="Dettaglio/1" class="btn btn-primary">Altenativa</a>
+                    @if($flight['id'] == 4)
+                          <a href="Dettaglio/1" class="btn btn-primary">Torna ad Inizio</a>
+                    @else
+                          <a href="Dettaglio/{{$flight['id'] + 1}}" class="btn btn-primary">Torna ad Inizio</a>
+                    @endif
                 </p>
              </div>
           </div>
