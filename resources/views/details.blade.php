@@ -1,4 +1,7 @@
 <x-main>
+  <x-slot name="Titolo">
+    Dettagli Voli
+  </x-slot>
   <h1 class="mb-4 text-center">Dettagli volo per {{ $flight['destination'] }}</h1>
   <div class="card mx-auto" style="width: 24rem;">
     <img src="{{ $flight['cover'] }}" class="card-img-top" alt="Foto di {{ $flight['destination'] }}">
