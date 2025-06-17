@@ -54,6 +54,7 @@
                   <br>
                   <hr>
                   <a href="/" class="btn btn-primary">Torna alla homepage</a>
+                  <a href="Dettaglio/1" class="btn btn-primary">Altenativa</a>
                 </p>
              </div>
           </div>
